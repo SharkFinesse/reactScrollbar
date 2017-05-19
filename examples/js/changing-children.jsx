@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types';
 import ScrollArea from 'react-scrollbar';
 
 class ChangingChildren extends React.Component{
@@ -91,7 +92,7 @@ class Content extends React.Component {
 }
 
 Content.contextTypes = {
-    scrollArea: React.PropTypes.object
+    scrollArea: PropTypes.object
 };
 
 export default ChangingChildren;

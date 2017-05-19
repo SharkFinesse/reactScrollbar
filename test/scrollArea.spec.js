@@ -4,7 +4,7 @@ expect.extend(expectJSX);
 
 import React, { Component } from 'react';
 import {render} from 'react-dom';
-import TestUtils from 'react-addons-test-utils';
+import TestUtils from 'react-dom/test-utils';
 import ScrollArea from '../src/js/ScrollArea';
 import Scrollbar from '../src/js/Scrollbar';
 
