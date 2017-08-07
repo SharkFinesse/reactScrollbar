@@ -10,14 +10,8 @@
     "type": "git",
     "url": "https://github.com/souhe/reactScrollbar.git"
   },
-  "keywords": [
-    "react",
-    "react-component",
-    "component",
-    "scrollbar",
-    "scroll",
-    "scrollarea"
-  ],
+  "keywords": ["react", "react-component", "component", "scrollbar", "scroll", "scrollarea"],
+  "files": ["dist"],
   "author": "souhe",
   "license": "MIT",
   "dependencies": {
